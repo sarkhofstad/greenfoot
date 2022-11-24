@@ -54,8 +54,8 @@ move();
 ```
 
 ## Lescheck
-[V5in1](https://forms.gle/LqQKoRQH184xmVwu8)
-[V5in2](https://forms.gle/Thsmugy1AgHyvMc99)
+- [V5in1](https://forms.gle/LqQKoRQH184xmVwu8)
+- [V5in2](https://forms.gle/Thsmugy1AgHyvMc99)
 
 ## Huiswerk voor volgende les
 Opdrachten les 2 (Dodo naar het ei).
