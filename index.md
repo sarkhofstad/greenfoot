@@ -2,6 +2,11 @@
 
 Op deze pagina kan je een samenvattig vinden van elke les. Verder kan je zien wat het huiswerk is en overige opmerkingen over de les.
 
+- week 1
+    - les 1: datatypen & objecten
+    - les 2: methodes
+- week 2
+
 # Les 1 (datatypen & objecten)
 
 ## Datatypes
