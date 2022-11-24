@@ -20,3 +20,26 @@ De belangrijkste datatypen in Java zijn:
 - bijv. Hond, Kat
 
 # Les 2 (methodes)
+
+Methodes hebben 4 delen:
+- return type (void, int, boolean, String)
+- parameters (elke parameter heeft een type en een naam)
+- naam
+- code
+
+Een methode aanmaken ziet er zo uit:
+
+```java
+int plus(int a, int b) {
+    return a + b;
+}
+```
+
+Een methode aanroepen ziet er zo uit:
+
+```java
+// met parameters
+plus(5,6);
+// zonder parameters
+move();
+```
