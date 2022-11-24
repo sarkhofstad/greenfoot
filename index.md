@@ -15,9 +15,13 @@ De belangrijkste datatypen in Java zijn:
 - basis bouwsteen bij object oriented programmeren
 - specifieke instantie van een klasse
 - bijv. mijnHondTommy
+
 ### Klassen
 - beschrijft het gedrag van een categorie aan objecten
 - bijv. Hond, Kat
+
+## Huiswerk voor de volgende les
+Thuis op je computer Greenfoot installeren.
 
 # Les 2 (methodes)
 
@@ -43,3 +47,10 @@ plus(5,6);
 // zonder parameters
 move();
 ```
+
+## Lescheck
+[V5in1](https://forms.gle/LqQKoRQH184xmVwu8)
+[V5in2](https://forms.gle/Thsmugy1AgHyvMc99)
+
+## Huiswerk voor volgende les
+Opdrachten les 2 (Dodo naar het ei).
