@@ -13,6 +13,11 @@ Op deze pagina kan je een samenvattig vinden van elke les. Verder kan je zien wa
 # Week 1: Introductie
 ## Les 1 (datatypen & objecten)
 
+### Leerdoelen
+- je kunt aan bepaalde waarde zien wat voor datatype het is
+- je kunt aan een klasse/objectnaam zien of het een klasse of object is
+- je maakt kennis met Greenfoot (game engine)
+
 ### Datatypes
 De belangrijkste datatypen in Java zijn:
 - `int`: volledig getal, dus (..., -2, -1, 0, 1, 2, ...)
@@ -34,11 +39,21 @@ Thuis op je computer Greenfoot installeren.
 
 ## Les 2 (methodes)
 
+### Leerdoelen
+- je kan de verschillende elementen van een methode benoemen.
+- je kan aan een specifieke methode zien wat de naam, return-type en  parameters zijn.
+- je kan een methode aanroepen in de Greenfoot-UI.
+- je kan een methode aanroepen in java code.
+
+### Methodes
+
 Methodes hebben 4 delen:
 - return type (void, int, boolean, String)
 - parameters (elke parameter heeft een type en een naam)
 - naam
 - code
+
+#### Aanmaken
 
 Een methode aanmaken ziet er zo uit:
 
@@ -47,6 +62,8 @@ int plus(int a, int b) {
     return a + b;
 }
 ```
+
+#### Aanroepen (gebruiken)
 
 Een methode aanroepen ziet er zo uit:
 
