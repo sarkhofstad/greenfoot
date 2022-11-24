@@ -58,4 +58,4 @@ move();
 - [V5in2](https://forms.gle/Thsmugy1AgHyvMc99)
 
 ## Huiswerk voor volgende les
-Opdrachten les 2 (Dodo naar het ei).
+Opdrachten les 2 (Dodo naar het ei). (De extra opgaven hoeven niet)
