@@ -2,33 +2,37 @@
 
 Op deze pagina kan je een samenvattig vinden van elke les. Verder kan je zien wat het huiswerk is en overige opmerkingen over de les.
 
-- week 1
+- week 1: introductie
     - les 1: datatypen & objecten
     - les 2: methodes
-- week 2
+- week 2: 
+- week 3:
+- week 4:
+- week 5:
 
-# Les 1 (datatypen & objecten)
+# Week 1: Introductie
+## Les 1 (datatypen & objecten)
 
-## Datatypes
+### Datatypes
 De belangrijkste datatypen in Java zijn:
 - `int`: volledig getal, dus (..., -2, -1, 0, 1, 2, ...)
 - `boolean`: true/false
 - `String`: Woorden/zinnen, bijv: "Hello world" (let op, dubbele aanhalingstekens)
 
-## Objecten & Klassen
-### Objecten
+### Objecten & Klassen
+#### Objecten
 - basis bouwsteen bij object oriented programmeren
 - specifieke instantie van een klasse
 - bijv. mijnHondTommy
 
-### Klassen
+#### Klassen
 - beschrijft het gedrag van een categorie aan objecten
 - bijv. Hond, Kat
 
-## Huiswerk voor de volgende les
+### Huiswerk voor de volgende les
 Thuis op je computer Greenfoot installeren.
 
-# Les 2 (methodes)
+## Les 2 (methodes)
 
 Methodes hebben 4 delen:
 - return type (void, int, boolean, String)
@@ -53,9 +57,9 @@ plus(5,6);
 move();
 ```
 
-## Lescheck
+### Lescheck
 - [V5in1](https://forms.gle/LqQKoRQH184xmVwu8)
 - [V5in2](https://forms.gle/Thsmugy1AgHyvMc99)
 
-## Huiswerk voor volgende les
+### Huiswerk voor volgende les
 Opdrachten les 2 (Dodo naar het ei). (De extra opgaven hoeven niet)
