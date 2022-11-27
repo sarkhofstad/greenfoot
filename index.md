@@ -96,9 +96,9 @@ Javadoc ziet er als volgt uit:
 ```java
 /**
 * Adds two numbers.
-* @param int a first number to add
-* @param int b second number to add
-* @return int a and b added together
+* @param a first number to add
+* @param b second number to add
+* @return a and b added together
 */
 int plus(int a, int b) {
   return a + b;
@@ -107,10 +107,10 @@ int plus(int a, int b) {
 
 Aan het begin is er een zin/paragraaf die beschrijft in woorden wat de methode doet. 
 
-Daarna volgt een lijst met alle parameters. Zijn er geen parameters? Dan kan je dit weglaten. Elke parameter is als volgt: `@param <datatype> <naam> <beschrijving>`.
+Daarna volgt een lijst met alle parameters. Zijn er geen parameters? Dan kan je dit weglaten. Elke parameter is als volgt: `@param <naam> <beschrijving>`.
 
 
-Als laatst volgt er een regel waarin staat wat de methode returnt. Heeft de methode als return-type `void`? Dan kan je dit weglaten. Die is als volgt: `@return <returntype> <beschrijving>`.
+Als laatst volgt er een regel waarin staat wat de methode returnt. Die is als volgt: `@return <beschrijving>`. Heeft de methode als return-type `void`? Dan kan je dit weglaten. 
 
 ### Huiswerk voor volgende les
 [Opdrachten les 3](Opdrachten_les3.md) (niet de EXTRA opgaven).
