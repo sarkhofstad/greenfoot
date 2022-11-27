@@ -109,4 +109,4 @@ Daarna volgt een lijst met alle parameters. Zijn er geen parameters? Dan kan je 
 Als laatst volgt er een regel waarin staat wat de methode returnt. Heeft de methode als return-type `void`? Dan kan je dit weglaten. Die is als volgt: `@return <returntype> <beschrijving>`.
 
 ### Huiswerk voor volgende les
-Opdrachten les 3 (zie Magister, niet de EXTRA opgaven).
+[Opdrachten les 3](Opdrachten_les3.md) (niet de EXTRA opgaven).
