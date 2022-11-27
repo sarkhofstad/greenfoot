@@ -80,3 +80,30 @@ move();
 
 ### Huiswerk voor volgende les
 Opdrachten les 2 (Dodo naar het ei). (De extra opgaven hoeven niet)
+
+# Week 2: Methodes & Beslissingen
+## Les 3 (methodes & javadoc)
+### Leerdoelen
+- je kan een eigen methode aanmaken en daarbij een bewuste keuze maken over de return-type en parameters
+- je kan met simpele methodes wat meer complexe taken uitvoeren
+- je kan JavaDoc schrijven van je zelfgemaakte methodes
+### Javadoc
+Javadoc ziet er als volgt uit:
+```java
+/**
+* Adds two numbers.
+* @param int a first number to add
+* @param int b second number to add
+* @return int a and b added together
+*/
+int plus(int a, int b) {
+  return a + b;
+}
+```
+
+Aan het begin is er een zin/paragraaf die beschrijft in woorden wat de methode doet. 
+
+Daarna volgt een lijst met alle parameters. Zijn er geen parameters? Dan kan je dit weglaten. Elke parameter is als volgt: `@param <datatype> <naam> <beschrijving>`.
+
+
+Als laatst volgt er een regel waarin staat wat de methode returnt. Heeft de methode als return-type `void`? Dan kan je dit weglaten. Die is als volgt: `@return <returntype> <beschrijving>`.
