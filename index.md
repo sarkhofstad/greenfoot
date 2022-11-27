@@ -5,7 +5,9 @@ Op deze pagina kan je een samenvattig vinden van elke les. Verder kan je zien wa
 - week 1: introductie
     - les 1: datatypen & objecten
     - les 2: methodes
-- week 2: 
+- week 2: methodes & beslissingen
+    - les 3: methodes (vervolg)
+    - les 4: beslissingen
 - week 3:
 - week 4:
 - week 5:
