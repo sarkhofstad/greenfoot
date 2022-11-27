@@ -89,6 +89,7 @@ Opdrachten les 2 (Dodo naar het ei). (De extra opgaven hoeven niet)
 - je kan JavaDoc schrijven van je zelfgemaakte methodes
 ### Javadoc
 Javadoc ziet er als volgt uit:
+
 ```java
 /**
 * Adds two numbers.
