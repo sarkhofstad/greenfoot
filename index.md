@@ -87,6 +87,7 @@ Opdrachten les 2 (Dodo naar het ei). (De extra opgaven hoeven niet)
 - je kan een eigen methode aanmaken en daarbij een bewuste keuze maken over de return-type en parameters
 - je kan met simpele methodes wat meer complexe taken uitvoeren
 - je kan JavaDoc schrijven van je zelfgemaakte methodes
+
 ### Javadoc
 Javadoc ziet er als volgt uit:
 
