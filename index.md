@@ -76,7 +76,7 @@ plus(5,6);
 move();
 ```
 
-### Lescheck
+### Lescheck 1
 - [V5in1](https://forms.gle/LqQKoRQH184xmVwu8)
 - [V5in2](https://forms.gle/Thsmugy1AgHyvMc99)
 
@@ -140,6 +140,9 @@ if (voorwaarde) {
     // Code die moet uitgevoerd worden als voorwaarde niet waar (false) is.
 }
 ```
+
+### Lescheck 2
+[V5in1](https://forms.gle/xGuRdef3sgGBQbW18)
 
 ### Huiswerk voor volgende les
 Informatica-Actief, inhoud 3: opdracht 3.1 t/m opdracht 3.5
