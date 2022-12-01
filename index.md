@@ -114,3 +114,32 @@ Als laatst volgt er een regel waarin staat wat de methode returnt. Die is als vo
 
 ### Huiswerk voor volgende les
 [Opdrachten les 3](Opdrachten_les3.md) (niet de EXTRA opgaven).
+
+## Les 4 (beslissingen)
+### Leerdoelen
+- Je kan de verschillende onderdelen van een if/else statement benoemen.
+- Je kan een stroomdiagram maken die een beslissing weergeeft.
+- Je kan van een stroomdiagram Java code schrijven die een beslissing maakt.
+
+### if-statements
+
+If-statements zien er zo uit:
+
+```java
+if (voorwaarde) {
+    // Code die moet uitgevoerd worden als voorwaarde waar (true) is.
+}
+```
+
+If-else statements zien er zo uit:
+
+```java
+if (voorwaarde) {
+    // Code die moet uitgevoerd worden als voorwaarde waar (true) is.
+} else {
+    // Code die moet uitgevoerd worden als voorwaarde niet waar (false) is.
+}
+```
+
+### Huiswerk voor volgende les
+Informatica-Actief, inhoud 3: opdracht 3.1 t/m opdracht 3.5
