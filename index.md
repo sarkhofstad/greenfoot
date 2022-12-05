@@ -143,6 +143,7 @@ if (voorwaarde) {
 
 ### Lescheck 2
 [V5in1](https://forms.gle/xGuRdef3sgGBQbW18)
+[V5in2](https://forms.gle/j9fSBjFdLyMiXZqm9)
 
 ### Huiswerk voor volgende les
 Informatica-Actief, inhoud 3: opdracht 3.1 t/m opdracht 3.5
