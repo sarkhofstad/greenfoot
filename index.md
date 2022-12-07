@@ -147,3 +147,21 @@ if (voorwaarde) {
 
 ### Huiswerk voor volgende les
 Informatica-Actief, inhoud 3: opdracht 3.1 t/m opdracht 3.5
+
+# Week 3: logische operatoren & loops
+
+## Les 5 (logische operatoren)
+
+### Leerdoelen
+- Je kunt logische operatoren toepassen
+- Verder oefenen met beslissingen
+
+### Logische operatoren
+
+Er zijn drie belangrijke logische operatoren:
+- `&&` - en/and
+- `||` - of/or
+- `!` - niet/not
+
+### Huiswerk voor volgende les
+[Operatoren opdracht](Operatoren.md) + Informatica-Actief, opgave 3.10 t/m, 3.12
