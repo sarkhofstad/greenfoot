@@ -148,7 +148,7 @@ if (voorwaarde) {
 ### Huiswerk voor volgende les
 Informatica-Actief, inhoud 3: opdracht 3.1 t/m opdracht 3.5
 
-# Week 3: logische operatoren & loops
+# Week 3: logische operatoren & overriding
 
 ## Les 5 (logische operatoren)
 
@@ -165,3 +165,67 @@ Er zijn drie belangrijke logische operatoren:
 
 ### Huiswerk voor volgende les
 [Operatoren opdracht](Operatoren.md) + Informatica-Actief, opgave 3.10 t/m, 3.12
+
+## Les 6 (overerving & overriding)
+
+### Leerdoelen
+- Je kan een klassendiagram maken.
+- Je kan overriding toepassen in Java.
+- Je kan het verschil tussen overerving en overriding uitleggen.
+- Je kan een subklasse aanmaken.
+
+
+### Overerving
+Bij overerving erft een subklasse methodes en velden over van diens superklassen. De klasse `Kitty` erft bijvoorbeeld de methode `move()` van Animalklasse en de velden `x` en `y` van de Actorklasse. Dit omdat `Kitty` een subklasse is van `Animal` én van `Actor`.
+
+Kijk naar het onderstaande voorbeeld:
+
+```java
+class Kat {
+    void saySomething() {
+        System.out.println("Meow!");
+    }
+}
+
+class HuisKat extends Kat {
+
+}
+```
+
+In het voorbeeld hierboven is `HuisKat` een subklasse van `Kat` (dit kan je zien aan het stukje `extends Kat`). Als ik de code hieronder run, zal de output van mijn programma `"Meow!"` zijn. Dit komt doordat de huiskat de methode `saySomething()` *overerft* van de klasse `Kat`.
+
+```java
+
+HuisKat huisKat = new HuisKat();
+
+huisKat.saySomething();
+
+```
+
+
+### Overriding
+Bij overerving overschrijft een methode in een subklasse een methode die overerfd is uit een superklasse. In het voorbeeld hieronder is `HuisKat` een subklasse van `Kat` (dit kan je zien aan het stukje `extends Kat`). De methode `saySomething()` in `HuisKat` *overschrijft* de methode `saySomething()` in `Kat`.  
+
+```java
+class Kat {
+    void saySomething() {
+        System.out.println("Meow!");
+    }
+}
+
+class HuisKat extends Kat {
+    void saySomething() {
+        System.out.println("Woof!");
+    }
+}
+```
+
+Als ik de code hieronder run, krijg ik de output `"Woof!"`. Dit komt doordat de klasse `HuisKat` de methode `saySomething()` *override*. De implementatie van `saySomething()` in `HuisKat` neemt prioriteit over de implementatie in `Kat`.
+
+```java
+
+HuisKat huisKat = new HuisKat();
+
+huisKat.saySomething();
+
+```
