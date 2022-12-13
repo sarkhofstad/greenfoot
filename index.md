@@ -229,3 +229,6 @@ HuisKat huisKat = new HuisKat();
 huisKat.saySomething();
 
 ```
+
+### Huiswerk voor volgende les
+Informatica-Actief inhoud 4: opdracht 4.1 t/m 4.5
