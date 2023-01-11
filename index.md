@@ -232,3 +232,104 @@ huisKat.saySomething();
 
 ### Huiswerk voor volgende les
 Informatica-Actief inhoud 4: opdracht 4.1 t/m 4.5
+
+
+## Les 7: Herhaling
+
+Deze les was een herhaling. Er hoorde geen nieuwe stof bij deze les
+
+## Les 8: Variabelen
+
+### Leerdoelen
+- Je kan het verschil tussen een lokale variabele en een veld uitleggen.
+- Je kan het verschil tussen een public en private variabele uitleggen.
+- Je kan een variabele en veld gebruiken in Java-code.
+- Je kan wiskundige operatoren toepassen op variabelen & velden.
+
+### Variabelen
+
+Een variabele is een soort vakje waar je een bepaalde waarde in kan opslaan. Deze waarde kan je later veranderen. Een variabele kan je gebruiken om bijvoorbeeld op te slaan hoeveel vijanden de speler heeft verslaan. 
+
+Er zijn een aantal dingen om te onthouden over variabelen:
+
+- De naam en datatype van een variabele kan je niét veranderen.
+- De waarde van een variabele kan je wél veranderen.
+
+#### Een variabele aanmaken
+Met deze code maak je een variabele aanmaken. Je geeft de datatype, naam, én de initiële waarde van de variabele. (vergeet niet de `;`!)
+
+``` java
+// In het algemeen
+<datatype> <naam> = <initiele_waarde>;
+
+// Voorbeeld 
+int a = 5;
+```
+
+#### De waarde van een variabele veranderen
+Met deze code kan je de waarde van een *bestaande* variabele veranderen. Je geeft alleen de naam aan, want de computer weet al welke datatype die heeft. Geef dus ***NIET*** de datatype!
+
+```java
+// In het algemeen
+<naam> = <nieuwe_waarde>;
+
+// Voorbeeld
+a = 10;
+```
+
+#### De waarde van een variabele gebruiken
+Je kan de waarde van een variabele gebruiken met de naam. Dit kan bijvoorbeeld in een if-statement, maar ook om de waarde van een nieuwe variabele te geven!
+
+```java
+// Voorbeeld if-statement
+if (a == 5) {
+    // doe iets
+}
+
+int b = a;
+```
+
+### Lokale variabele
+Een lokale variabele kan alleen in 1 specifieke code-blok gebruikt worden. Als de computer klaar is met die code blok uitvoeren, dan verdwijnt de variabele. Je kan het daarna dus niet meer gebruiken/veranderen.
+
+Een code-blok wordt aangeduid met accolades `{`, `}`, dit kan dus een if-statement zijn, maar ook bijvoorbeeld een methode! Bij klassen werkt het iets anders: dan noemen we het een veld (dat zie je in het kopje hieronder).
+
+```java
+// Voorbeeld met een if-statement
+if (a == 5) {
+    int b = 5;
+    // Binnen de if-statement kan ik de variabele b gebruiken.
+}
+// Hier kan ik het dus niet meer gebruiken! Als ik het probeer te gebruiken, krijg ik een error!
+```
+
+```java
+// Voorbeeld met een methode, hier kan de variabele alleen in de methode gebruikt worden.
+public void foo() {
+    int c = 10;
+
+    // hier kan ik c dus gebruiken
+}
+
+// maar buiten de methode niet!
+```
+
+### Velden
+Velden zijn variabelen die je kan gebruiken door de hele klas heen. De waarde van die variabele blijft dus opgeslagen, ook nadat je een methode uit hebt gevoerd. Een veld maak je aan buiten de methodes, maar in de klasse. 
+
+In een veld kan je informatie opslaan die je langer nodig hebt dan alleen in 1 blokje code; denk bijvoorbeeld aan de x en y coördinaten van een speler.
+
+```java
+// Voorbeeld
+class Person {
+    int age = 10;
+    String name = "SARK";
+
+    void sayHello() {
+        // TO DO
+    }
+}
+```
+
+#### Huiswerk voor de volgende les
+Informatica-Actief: Inhoud 5 (t/m opdracht 5.6)
