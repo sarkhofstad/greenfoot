@@ -333,3 +333,33 @@ class Person {
 
 #### Huiswerk voor de volgende les
 Informatica-Actief: Inhoud 5 (t/m opdracht 5.6)
+
+## Les 9 (loops)
+
+Er zijn twee soorten loops in java, een for-loop en een while loop.
+
+### For-loops
+For loops laten je een stuk code een specifiek aantal keer uitvoeren. Je kan dit aantal aanduiden met een getal, de uitkomst van een methode of met een `int` variabele. 
+
+```java
+// foo() wordt hier aantal keer uitgevoerd.
+for (int i = 0; i < aantal; i++) {
+    foo();
+}
+```
+
+### While-loops
+While loops laten je een stuk code uitvoeren zolang een specifieke voorwaarde waar/true is. Deze voorwaarde kan worden aangeduid met een `boolean` variabele of met de uitkomst van een methode.
+
+```java
+// bar() wordt uitgevoerd totdat de voorwaarde false is.
+while (voorwaarde) {
+    bar();
+}
+```
+
+### Opgaven
+[Opgaven Les 9](Opdrachten_les9.md)
+
+### Huiswerk voor de volgende les
+zie opgaven hierboven.
